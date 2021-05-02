@@ -1,0 +1,23 @@
+@font-face {
+  font-family: 'Roboto-Light';
+  src: url('assets/Roboto-Regular.ttf');
+}
+
+body {
+  margin: 0;
+  font-family: 'Roboto-Light',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url('assets/background.jpg');
+  background-size: cover;
+  background-repeat:no-repeat;
+  width: 500px;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
